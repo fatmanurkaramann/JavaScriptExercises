@@ -1,0 +1,44 @@
+.number{
+    font-size: 100px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.button-container{
+    padding: 10px;
+}
+.button{
+    border-width: 2px;
+    width: 150px;
+    height: 33px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.button:active{
+    transform: scale(90%);
+}
+.decrease:hover{
+    background-color: #FA1E0E;
+}
+.increase:hover{
+    background-color:#49FF00;
+}
+.reset:hover{
+    background-color: #DECDC3;
+}
+.positive{
+    color: green;
+}
+.negative{
+    color:red
+}
+.zero{
+    color:black
+}
